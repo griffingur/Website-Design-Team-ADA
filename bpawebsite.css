@@ -8,3 +8,7 @@ p {
     text-align: center;
 	font-family: Arial, serif, sans-serif;
 }
+
+body {
+    background-color: LightBlue;	
+}
