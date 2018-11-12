@@ -1,7 +1,13 @@
+div {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0; 
+}
 h1 {
     text-align: center;
 	/*font-family: "Comic Sans MS", cursive, sans-serif;*/
-    font-family: Arial, serif, sans-serif;
+    font-family:Tahoma, Geneva, sans-serif;
     color: Grey;
 }
 
