@@ -12,9 +12,9 @@
 		<script src="js/skel-panels.min.js"></script>
 		<script src="js/init.js"></script>
 		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" type="text/css" href="style-desktop.css">
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="stylesheet" type="text/css" href="skel-noscript.css">
 		</noscript>
 	</head>
 	<body class="homepage">
