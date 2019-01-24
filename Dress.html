@@ -5,17 +5,26 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
-		{
+* {
   box-sizing: border-box;
-  }
-  
+}
 body {
-  margin: 0;
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
 }
 .header {
-  background-color: #f1f1f1;
-  padding: 20px;
-text-align: center; 
+  padding: 30px;
+  text-align: center;
+  background: white;
+  background-image: url("https://www.okcareertech.org/educators/business-marketing-and-information-technology-education/images-1/bpa-logo/image_preview");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 280px;
+}
+}
+.header h1 {
+  font-size: 50px;
 }
 .topnav {
   overflow: hidden;
@@ -28,44 +37,54 @@ text-align: center;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  }
-  
+}
 .topnav a:hover {
   background-color: #ddd;
   color: black;
-  }
-  
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-  }
-  
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;}
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-  }
+}
 .leftcolumn {   
   float: left;
   width: 75%;
+}
 .rightcolumn {
   float: left;
   width: 25%;
   background-color: #f1f1f1;
   padding-left: 20px;
+}
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
 .card {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
+}
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
   </style>
   <body>
     <div class="header">
